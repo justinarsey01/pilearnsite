@@ -1,0 +1,453 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+body {
+	background-color: rgb(247, 252, 250);
+	margin: 0;
+	width: 100%;
+	font-family: 'Satoshi', sans-serif;
+ 	 
+}
+
+#header {
+	background: rgb(77, 39, 112);
+	display: flex;
+	margin: 0;
+	width: 100%;
+	height: 20%;
+	position: fixed;
+	float: center;
+	padding: 0%;
+}
+
+#header .logo {
+	margin-bottom: 600px;
+	margin-top: 0.34px;
+	margin-left: 93px;
+}
+
+#header #manuIcon {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 600;
+	float: right;
+	margin-right: 30px;
+	margin-top: 29px;
+	border: 1px solid #ddd;
+	padding: 1px 8px;
+	border-radius: 5px;
+	display: none;
+}
+
+.navbar {
+	padding-left: 50px;
+	text-align: center;
+
+}
+
+#listi {
+	margin-top: 15px;
+	padding-left: 70px;
+}
+
+.listing {
+	display: inline-flex;
+	list-style: none;
+	padding-right: 170px;
+
+}
+
+#icontab {
+	float: left;
+	padding-left: px;
+	word-spacing: 40px;
+	cursor: pointer;
+
+}
+
+#icontab {
+	width: 300px;
+	height: 70px;
+	margin-top: 33px;
+	margin-left: 60px;
+	letter-spacing: px;
+	cursor: pointer;
+	padding-right: 3px;
+	margin-right: 50px;
+
+
+}
+
+#dropdown ul {
+	text-align: center;
+	margin-left: 200px;
+	margin-top: 60px;
+	letter-spacing: 2px;
+	white-space: 39px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25px;
+
+}
+
+#header #nav-bar {
+	color: #FFFFFF;
+	font-size: 18px;
+	float: right;
+	width: 10%;
+	text-align: center;
+	display: none;
+}
+
+#header #nav-bar span {
+	width: 30px;
+	line-height: 60px;
+	cursor: pointer;
+}
+
+#nav-bar {
+	float: right;
+	display: none;
+}
+
+
+a {
+	text-decoration: none;
+	position: relative;
+	color: rgb(227, 227, 241);
+	padding-right: 34px;
+	font-weight: 100px;
+}
+
+.dropdown-content a::after,
+#listing a::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0%;
+	width: 0%;
+	height: 3px;
+	background: rgb(104, 4, 99);
+	margin-top: 0;
+	transition: ease-in;
+	transition-duration: 0.92s;
+	border-radius: 30px;
+}
+
+
+.dropdown-content a:hover::after,
+#listing a:hover::after {
+	width: 50%;
+	left: 0%;
+
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+
+}
+
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(255, 254, 255, 0);
+	z-index: 1;
+	font-size: 16px;
+	word-spacing: 10px;
+	border-radius: 10px;
+	padding: 12px 0px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: inline-block;
+	/* width: 100%; */
+	text-align: center;
+}
+
+.dropdown-content :hover {
+	background-color: transparent;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	width: 70px;
+}
+
+#contentright {
+	color: white;
+
+
+	font-size: xx-large;
+	margin-top: 175px;
+
+
+
+}
+
+#contentpicleft {
+	margin-right: 100px;
+	height: 100px;
+	width: 500px;
+	margin-top: 120px;
+
+
+}
+
+#mainbodyfirst {
+	display: flex;
+	justify-content: center;
+	height: 550px;
+	background-color: rgb(39, 4, 63);
+	width: 100%;
+	justify-items: center;
+}
+
+.buton {
+	border-radius: 20px;
+	background-color: transparent;
+	border-style: solid;
+	margin-right: 170px;
+	margin-left: 0px;
+	border-color: rgb(241, 176, 10);
+	text-align: center;
+	color: goldenrod;
+	cursor: pointer;
+
+}
+
+
+#mineeasy {
+	width: 100%;
+	text-align: center;
+	background-color: rgb(121, 73, 121);
+	color: white;
+	word-spacing: 0px;
+	font-size: 25px;
+	line-height: 35px;
+	height: 200px;
+	float: none;
+	font-family: Arial, sans-serif;
+	padding-top: 27px;
+
+}
+
+#section3 {
+	display: flex;
+	justify-content: center;
+	height: 550px;
+	width: 100%;
+	
+
+}
+
+#sec3pic2 {
+	justify-content: space-around;
+	margin-left: 100px;
+	height: 100px;
+	width: 500px;
+	margin-top: 100px;
+}
+
+#pimakes {
+
+	font-size: xx-large;
+	margin-top: 175px;
+	color: rgb(121, 73, 121);
+}
+
+
+.buton :hover {
+	background-color: rgb(241, 176, 10);
+	color: white;
+	border-radius: 5px;
+	behavior: inherit;
+}
+
+#threepic {
+	
+	word-spacing: 30px;
+	text-shadow: #56717c;
+	height: auto;
+	border-radius: 10px;
+	justify-content: center;
+	justify-items: center;
+	padding-left: 180px;
+	
+}
+
+#secondlast {
+	display: flex;
+	background: linear-gradient(to right, rgb(134, 61, 141), rgb(70, 5, 90));
+	text-align: center;
+	margin-left: 00px;
+	width: 100%;
+	height: 480px;
+	justify-content: center;
+	word-spacing: 2px;
+}
+
+#downlopic {
+	cursor: pointer;
+}
+
+.lastpa {
+	/* padding-left: 100px; */
+	padding-top: 20px;
+}
+
+#footer {
+	text-decoration: none;
+	text-emphasis: none;
+	display: flex;
+	background-color: rgb(27, 26, 26);
+	
+	padding-top: 100px;
+	width: 100%;
+	justify-content: space-around;
+	padding-bottom: 50px;
+}
+
+.use-link {
+	list-style: none;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-size: 16px;
+	row-gap: 14px;
+}
+
+@media (max-width: 676px) {
+	#header {
+		height: auto; 
+		flex-direction: column;
+		display: block;
+		height: auto;
+		width: 100%;
+	
+		
+	}
+
+	#header #manuIcon {
+		display: inline-block;
+	}
+
+	#logo {
+		margin-left: 13px;
+	}
+
+	#logo img {
+		width: 150px;
+		/* Reduce logo size */
+		margin: 10px 0;
+		/* Adjust margin */
+	}
+
+	#nav-bar {
+		margin: 10px 0;
+		/* Adjust nav margin */
+	}
+
+	.navbar {
+		flex-direction: column;
+		/* Stack navbar items */
+		width: 100%;
+		/* Full width */
+		display: none;
+	}
+
+	.dropdown {
+		width: 100%;
+		/* Full width dropdown */
+	}
+
+	
+
+	#contentpicleft {
+		flex-direction: column;
+		align-items: center;
+		margin: 0%;
+
+
+	}
+
+	.body {
+		margin: 0%;
+		flex-direction: column;
+		padding-right: 40px;
+		margin-right: 100px;
+		
+	}
+
+	#footer {
+		flex-direction: column-reverse;
+		row-gap: 14px;
+	}
+	#secondlast{
+		flex-direction: column;
+	}
+	#downlopic{
+		flex-direction: column;
+		height: auto;
+	}
+	#pimakes{
+		flex-direction: column;
+	}
+	#mainbodyfirst{
+		flex-direction: column;
+		height: 900px;
+		justify-content: center;
+		padding-left: 120px;
+		padding-bottom: 400px;
+	}
+	.buton{
+		margin: auto;
+		width: fit-content;
+		paddi
+	}
+	#mineeasy{
+		
+	}
+	#pimakes{
+		flex-direction: column;
+		
+	}
+	#section3{
+		flex-direction: column;
+		height: 750px;
+		text-align: center;
+		justify-content: center;
+		margin-top: auto;
+		padding-left: 90px;
+		padding-bottom: 400px;
+	}
+	#threepic{
+		height: auto;
+		flex-direction: column;
+		width: 100%;
+		justify-items: center;
+	}
+	#secondlast{
+		flex-direction:column;
+		height: auto;
+	}
+	.buton{
+
+	}
+}
