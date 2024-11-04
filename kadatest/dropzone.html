@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>File Upload</title>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #ac9b9b;
+  }
+
+  .upload-zone {
+    border: solid;
+    border-radius: 8px;
+    width: 350px;
+    height: 150px;
+    padding: 30px;
+    text-align: center;
+    background-color: #c7bcbc;
+    transition: border-color 0.3s ease;
+  }
+
+  .upload-zone:hover {
+    border-color: #005bb5;
+  }
+
+  .upload-zone input[type="file"] {
+    display: none;
+  }
+
+  .upload-zone label {
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #060607;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 15px;
+  }
+</style>
+</head>
+<body>
+
+<div class="upload-zone" id="drop_zone">
+  <p>Upload File here</p>
+  <input type="file" id="fileInput">
+  <label for="fileInput">Choose File</label>
+</div>
+
+</body>
+</html>
